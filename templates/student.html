@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <style>
+            form  { display: table;      }
+            p     { display: table-row;  }
+            label { display: table-cell; padding: 3px;}
+            input { display: table-cell; }
+        </style>
+    </head>
+   <body>
+      <form action = "http://localhost:5000/result" method = "POST">
+        <p>
+            <label for="studentName">Name </label>
+            <input id="studentName" type = "text" name = "Name" />
+        </p>
+        <p>
+            <label for="phy">Physics </label>
+            <input id="phy" type = "text" name = "Physics" />
+        </p>
+        <p>
+            <label for="che">Chemistry </label>
+            <input id="che" type = "text" name = "Chemistry" />
+        </p>
+        <p>
+            <label for="math">Maths </label>
+            <input id="math" type ="text" name = "Mathematics" />
+        </p>
+        <p>
+            <input type = "submit" value = "Submit" />
+        </p>
+      </form>
+   </body>
+</html>
